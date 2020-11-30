@@ -1,5 +1,7 @@
 #! python3
 
+import json
+
 from yahoo_oauth import OAuth2
 oauth = OAuth2(None, None, from_file='private.json')
 
@@ -16,12 +18,23 @@ game_league_ids = {
     '2019': ('390', '655835'),
     '2020': ('399', '414682')
         }
+num_league_years = len(game_league_ids)
+num_teams = []
 
 for gl_id in game_league_ids:
     g_id, l_id = game_league_ids[gl_id]
     req_url = url+"/league/"+g_id+".l."+l_id
     r = oauth.session.get(req_url, params={"format": "json"})
-    print(r.text)
+    league_info = json.loads(r.text)
+    num_teams.append(league_info['fantasy_content']['league'][0]['num_teams'])
+
+for num in num_teams:
+    print('Number of teams: {}'.format(num))  
+
+req_url = url+"/team/"+"399.l.414682.t.1/roster/players"
+r = oauth.session.get(req_url, params={"format": "json"})
+roster = json.loads(r.text)
+
 
 #req_url = url + "/league/399.l.414682"
 #r = oauth.session.get(req_url, params={"format": "json"})
