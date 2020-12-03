@@ -1,6 +1,10 @@
-#! python3
+#! python
 
 import json
+import pprint
+import xml.etree.ElementTree as ET
+from xml.dom import minidom
+import re
 
 from yahoo_oauth import OAuth2
 oauth = OAuth2(None, None, from_file='private.json')
@@ -21,19 +25,27 @@ game_league_ids = {
 num_league_years = len(game_league_ids)
 num_teams = []
 
-for gl_id in game_league_ids:
-    g_id, l_id = game_league_ids[gl_id]
-    req_url = url+"/league/"+g_id+".l."+l_id
-    r = oauth.session.get(req_url, params={"format": "json"})
-    league_info = json.loads(r.text)
-    num_teams.append(league_info['fantasy_content']['league'][0]['num_teams'])
+#for gl_id in game_league_ids:
+#    g_id, l_id = game_league_ids[gl_id]
+#    req_url = url+"/league/"+g_id+".l."+l_id
+#    r = oauth.session.get(req_url, params={"format": "json"})
+#    league_info = json.loads(r.text)
+#    num_teams.append(league_info['fantasy_content']['league'][0]['num_teams'])
 
-for num in num_teams:
-    print('Number of teams: {}'.format(num))  
+#for num in num_teams:
+#    print('Number of teams: {}'.format(num))  
 
-req_url = url+"/team/"+"399.l.414682.t.1/roster/players"
-r = oauth.session.get(req_url, params={"format": "json"})
-roster = json.loads(r.text)
+
+req_url = url+"/team/"+"399.l.414682.t.2/roster/players"
+r = oauth.session.get(req_url)
+xmlstring = r.text
+pprint.pprint(xmlstring)
+xmlstring = re.sub(' xmlns="[^"]+"', '', xmlstring, count=1)
+root = ET.fromstring(xmlstring)
+for player in root.iter('player'):
+    player_name = player.find('name')
+    player_fullname = player_name.find('full')
+    print(player_fullname.text)
 
 
 #req_url = url + "/league/399.l.414682"
