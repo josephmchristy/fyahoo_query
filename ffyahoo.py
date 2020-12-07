@@ -1,9 +1,6 @@
 #! python
 
-import json
-import pprint
 import xml.etree.ElementTree as ET
-from xml.dom import minidom
 import re
 
 from yahoo_oauth import OAuth2
@@ -22,8 +19,8 @@ game_league_ids = {
     '2019': ('390', '655835'),
     '2020': ('399', '414682')
         }
-num_league_years = len(game_league_ids)
-num_teams = []
+#num_league_years = len(game_league_ids)
+#num_teams = []
 
 #for gl_id in game_league_ids:
 #    g_id, l_id = game_league_ids[gl_id]
@@ -35,11 +32,20 @@ num_teams = []
 #for num in num_teams:
 #    print('Number of teams: {}'.format(num))  
 
+#Get the number of teams
+g_id = game_league_ids['2020'][0]
+l_id = game_league_ids['2020'][1]
+req_url = url+"/league/"+g_id+".l."+l_id
+r = oauth.session.get(req_url)
+xmlstring = r.text
+xmlstring = re.sub(' xmlns="[^"]+"', '', xmlstring, count=1)
+league_info = ET.fromstring(xmlstring)
+num_teams = league_info[0].find('num_teams').text
 
+#Get the roster for a team
 req_url = url+"/team/"+"399.l.414682.t.2/roster/players"
 r = oauth.session.get(req_url)
 xmlstring = r.text
-pprint.pprint(xmlstring)
 xmlstring = re.sub(' xmlns="[^"]+"', '', xmlstring, count=1)
 root = ET.fromstring(xmlstring)
 for player in root.iter('player'):
