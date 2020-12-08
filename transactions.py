@@ -1,6 +1,6 @@
 #! python
 
-# import datetime
+import datetime
 import logging
 
 logging.basicConfig(level=logging.DEBUG)
@@ -32,3 +32,12 @@ def addPlayer(transaction, is_waiver_trade=False):
     if not is_waiver_trade:
         if player.cost > 5:
             player.cost = 5
+
+# Drop Player Transaction
+def dropPlayer(transaction):
+    player_name = transaction[3]
+
+    # Update player's owner and drop date
+    player = players[player_name]
+    player.owner = ''
+    player.drop_date = datetime.date.today()
