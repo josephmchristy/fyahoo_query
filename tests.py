@@ -5,12 +5,14 @@ import datetime
 
 import transactions
 
+
 class PlayerTests(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
         cls.empty_player = transactions.Player()
-        cls.arg_player = transactions.Player('Arg Player', 'John Doe', datetime.date.today(), 7) 
+        cls.arg_player = transactions.Player('Arg Player', 'John Doe',
+                                             datetime.date.today(), 7)
 
     @classmethod
     def tearDownClass(cls):
@@ -31,12 +33,14 @@ class PlayerTests(unittest.TestCase):
         self.assertEqual(self.arg_player.drop_date, datetime.date.today())
         self.assertEqual(self.arg_player.cost, 7)
 
+
 class TransactionTests(unittest.TestCase):
-    
+
     @classmethod
     def setUpClass(cls):
         cls.player_1 = transactions.Player('Player 1', 'John Doe', None, 5)
-        cls.transaction_add = [datetime.date.today(), 'Add', 'John Doe', 'Player 1']
+        cls.transaction_add = [datetime.date.today(), 'Add', 'John Doe',
+                               'Player 1']
 
     @classmethod
     def tearDownClass(cls):

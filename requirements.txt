@@ -1,1 +1,2 @@
-yfpy
+yahoo_oauth
+openpyxl
