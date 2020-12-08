@@ -31,7 +31,7 @@ game_league_ids = {
 #    num_teams.append(league_info['fantasy_content']['league'][0]['num_teams'])
 
 # for num in num_teams:
-#    print('Number of teams: {}'.format(num))  
+#    print('Number of teams: {}'.format(num))
 
 # Get the number of teams
 g_id = game_league_ids['2020'][0]
