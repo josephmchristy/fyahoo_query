@@ -33,6 +33,7 @@ def addPlayer(transaction, is_waiver_trade=False):
         if player.cost > 5:
             player.cost = 5
 
+
 # Drop Player Transaction
 def dropPlayer(transaction):
     player_name = transaction[3]
