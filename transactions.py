@@ -1,11 +1,12 @@
 #! python
 
-import datetime
+# import datetime
 import logging
 
 logging.basicConfig(level=logging.DEBUG)
 
-players={}
+players = {}
+
 
 class Player:
     def __init__(self, name='', owner='', drop_date=None, cost=5):
@@ -14,9 +15,10 @@ class Player:
         self.drop_date = drop_date
         self.cost = cost
 
+
 # Add Player Transaction
 def addPlayer(transaction, is_waiver_trade=False):
-    trans_date = transaction[0]
+    # trans_date = transaction[0]
     owner_name = transaction[2]
     player_name = transaction[3]
 
