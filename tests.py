@@ -67,5 +67,6 @@ class TransactionTests(unittest.TestCase):
         self.assertEqual(dropped_player.drop_date, datetime.date.today())
         self.assertEqual(dropped_player.cost, 5)
 
+
 if __name__ == '__main__':
     unittest.main()
