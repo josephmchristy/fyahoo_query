@@ -18,9 +18,8 @@ class Player:
 
 # Add Player Transaction
 def addPlayer(transaction, is_waiver_trade=False):
-    # trans_date = transaction[0]
-    owner_name = transaction[2]
-    player_name = transaction[3]
+    owner_name = transaction['owner']
+    player_name = transaction['player']
 
     # If player does not exist, create new player
     if player_name not in players:
@@ -36,9 +35,23 @@ def addPlayer(transaction, is_waiver_trade=False):
 
 # Drop Player Transaction
 def dropPlayer(transaction):
-    player_name = transaction[3]
+    player_name = transaction['player']
 
     # Update player's owner and drop date
     player = players[player_name]
     player.owner = ''
     player.drop_date = datetime.date.today()
+
+
+# Add Drop Waiver Transaction
+def addDropWaiver(transaction):
+    
+    # Check if the transaction is a waiver
+    is_waiver = False
+    if(transaction['type'] == 'waiver'):
+        is_waiver = True
+
+    transaction_add = {'owner': transaction['owner'], 'player': transaction['player'][0]}
+    transaction_drop = {'player': transaction['player'][1]}
+    addPlayer(transaction_add)
+    dropPlayer(transaction_drop)

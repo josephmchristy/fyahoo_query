@@ -38,34 +38,40 @@ class TransactionTests(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.player_1 = transactions.Player('Player 1', 'John Doe', None, 5)
-        cls.transaction_add = [datetime.date.today(), 'Add', 'John Doe',
-                               'Player 1']
-        cls.transaction_drop = [datetime.date.today(), 'Drop', 'John Doe', 'Player 1']
+        cls.transaction_add = {'drop_date': None, 'type': 'Add', 'owner': 'John Doe', 'player': 'Add_Drop Player'}
+        cls.transaction_drop = {'drop_date': datetime.date.today(), 'type': 'Drop', 'owner': 'John Doe', 'player': 'Add_Drop Player'}
+        cls.transaction_add_drop = {'drop_date': datetime.date.today(), 'type': 'AddDrop', 'owner': 'John Doe', 'player': ('Add Player', 'Add_Drop Player')}
 
     @classmethod
     def tearDownClass(cls):
-        del cls.player_1
         del cls.transaction_add
         del cls.transaction_drop
 
     # Test an add transaction
     def test_add(self):
         transactions.addPlayer(self.transaction_add)
-        added_player = transactions.players[self.transaction_add[3]]
-        self.assertEqual(added_player.name, self.player_1.name)
-        self.assertEqual(added_player.owner, self.player_1.owner)
-        self.assertIsNone(added_player.drop_date)
+        added_player = transactions.players[self.transaction_add['player']]
+        self.assertEqual(added_player.name, 'Add_Drop Player')
+        self.assertEqual(added_player.owner, 'John Doe')
         self.assertEqual(added_player.cost, 5)
 
     # Test a drop transaction
     def test_drop(self):
         transactions.dropPlayer(self.transaction_drop)
-        dropped_player = transactions.players[self.transaction_drop[3]]
-        self.assertEqual(dropped_player.name, self.player_1.name)
+        dropped_player = transactions.players[self.transaction_drop['player']]
         self.assertEqual(dropped_player.owner, '')
         self.assertEqual(dropped_player.drop_date, datetime.date.today())
-        self.assertEqual(dropped_player.cost, 5)
+
+    # Test an add drop transaction
+    def test_add_drop(self):
+        transactions.addPlayer(self.transaction_add)
+        transactions.addDropWaiver(self.transaction_add_drop)
+        added_player = transactions.players[self.transaction_add_drop['player'][0]]
+        dropped_player = transactions.players[self.transaction_add_drop['player'][1]]
+        self.assertEqual(added_player.owner, 'John Doe')
+        self.assertEqual(dropped_player.owner, '')
+        self.assertEqual(dropped_player.drop_date, datetime.date.today())
+
 
 
 if __name__ == '__main__':
