@@ -17,7 +17,7 @@ class Player:
 
 
 # Add Player Transaction
-def addPlayer(transaction, is_waiver_trade=False):
+def addPlayer(transaction, is_waiver=False):
     owner_name = transaction['owner']
     player_name = transaction['player']
 
@@ -28,7 +28,11 @@ def addPlayer(transaction, is_waiver_trade=False):
     # Update player's owner and cost
     player = players[player_name]
     player.owner = owner_name
-    if not is_waiver_trade:
+    if is_waiver and player.drop_date is not None:
+        # If a player was dropped more than 3 days ago, they are not eligible to stay the same cost
+        if transaction['date'] - datetime.timedelta(days = 3) > player.drop_date:
+            is_waiver = False
+    if not is_waiver:
         if player.cost > 5:
             player.cost = 5
 
@@ -40,7 +44,7 @@ def dropPlayer(transaction):
     # Update player's owner and drop date
     player = players[player_name]
     player.owner = ''
-    player.drop_date = datetime.date.today()
+    player.drop_date = transaction['date']
 
 
 # Add Drop Waiver Transaction
@@ -48,10 +52,10 @@ def addDropWaiver(transaction):
     
     # Check if the transaction is a waiver
     is_waiver = False
-    if(transaction['type'] == 'waiver'):
+    if transaction['type'] == 'Waiver':
         is_waiver = True
 
-    transaction_add = {'owner': transaction['owner'], 'player': transaction['player'][0]}
-    transaction_drop = {'player': transaction['player'][1]}
-    addPlayer(transaction_add)
+    transaction_add = {'date': transaction['date'], 'owner': transaction['owner'], 'player': transaction['player'][0]}
+    transaction_drop = {'date': transaction['date'], 'player': transaction['player'][1]}
+    addPlayer(transaction_add, is_waiver)
     dropPlayer(transaction_drop)
