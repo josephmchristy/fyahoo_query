@@ -30,7 +30,7 @@ def addPlayer(transaction, is_waiver=False):
     player.owner = owner_name
     if is_waiver and player.drop_date is not None:
         # If a player was dropped more than 3 days ago, they are not eligible to stay the same cost
-        if transaction['date'] - datetime.timedelta(days = 3) > player.drop_date:
+        if transaction['date'] - datetime.timedelta(days=3) > player.drop_date:
             is_waiver = False
     if not is_waiver:
         if player.cost > 5:
@@ -49,7 +49,6 @@ def dropPlayer(transaction):
 
 # Add Drop Waiver Transaction
 def addDropWaiver(transaction):
-    
     # Check if the transaction is a waiver
     is_waiver = False
     if transaction['type'] == 'Waiver':

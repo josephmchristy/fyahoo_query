@@ -39,9 +39,18 @@ class TransactionTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.transaction_add = {'type': 'Add', 'owner': 'John Doe', 'player': 'Add_Drop Player'}
-        cls.transaction_drop = {'date': datetime.date(2020, 12, 9), 'type': 'Drop', 'owner': 'John Doe', 'player': 'Add_Drop Player'}
-        cls.transaction_add_drop = {'date': datetime.date(2020, 12, 12), 'type': 'AddDrop', 'owner': 'John Doe', 'player': ('Add Player', 'Add_Drop Player')}
-        cls.transaction_waiver = {'date': datetime.date(2020, 12, 12), 'type': 'Waiver', 'owner': 'John Doe', 'player': ('Waiver Player', 'Add Player')}
+        cls.transaction_drop = {'date': datetime.date(2020, 12, 9), 
+                'type': 'Drop', 
+                'owner': 'John Doe', 
+                'player': 'Add_Drop Player'}
+        cls.transaction_add_drop = {'date': datetime.date(2020, 12, 12), 
+                'type': 'AddDrop', 
+                'owner': 'John Doe', 
+                'player': ('Add Player', 'Add_Drop Player')}
+        cls.transaction_waiver = {'date': datetime.date(2020, 12, 12), 
+                'type': 'Waiver', 
+                'owner': 'John Doe', 
+                'player': ('Waiver Player', 'Add Player')}
 
     @classmethod
     def tearDownClass(cls):
