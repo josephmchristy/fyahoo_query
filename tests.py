@@ -34,23 +34,26 @@ class PlayerTests(unittest.TestCase):
         self.assertEqual(self.arg_player.cost, 7)
 
 
-class TransactionTests(unittest.TestCase):
+class transactiontests(unittest.testcase):
 
     @classmethod
-    def setUpClass(cls):
-        cls.transaction_add = {'type': 'Add', 'owner': 'John Doe', 'player': 'Add_Drop Player'}
-        cls.transaction_drop = {'date': datetime.date(2020, 12, 9), 
-                'type': 'Drop', 
-                'owner': 'John Doe', 
-                'player': 'Add_Drop Player'}
-        cls.transaction_add_drop = {'date': datetime.date(2020, 12, 12), 
-                'type': 'AddDrop', 
-                'owner': 'John Doe', 
-                'player': ('Add Player', 'Add_Drop Player')}
-        cls.transaction_waiver = {'date': datetime.date(2020, 12, 12), 
-                'type': 'Waiver', 
-                'owner': 'John Doe', 
-                'player': ('Waiver Player', 'Add Player')}
+    def setupclass(cls):
+        cls.transaction_add = {'type': 'add',
+                               'owner': 'john doe',
+                               'player': 'add_drop player'}
+        cls.transaction_drop = {'date': datetime.date(2020, 12, 9),
+                                'type': 'drop',
+                                'owner': 'john doe',
+                                'player': 'add_drop player'}
+        cls.transaction_add_drop = {'date': datetime.date(2020, 12, 12),
+                                    'type': 'adddrop',
+                                    'owner': 'john doe',
+                                    'player': ('add player',
+                                               'add_drop player')}
+        cls.transaction_waiver = {'date': datetime.date(2020, 12, 12),
+                                  'type': 'waiver',
+                                  'owner': 'john doe',
+                                  'player': ('waiver player', 'add player')}
 
     @classmethod
     def tearDownClass(cls):
