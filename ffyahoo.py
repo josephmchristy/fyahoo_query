@@ -54,12 +54,22 @@ for player in root.iter('player'):
     player_fullname = player_name.find('full')
     print(player_fullname.text)
 
-# req_url = url + "/league/399.l.414682"
-# r = oauth.session.get(req_url, params={"format": "json"})
-# print(r.status_code)
-# print(r.text)
-#
-# req_url = url + "/league/390.l.655835"
-# r = oauth.session.get(req_url, params={"format": "json"})
-# print(r.status_code)
-# print(r.text)
+# Get the transactions for the league
+req_url = url + "/league/348.l.521087/transactions"
+r = oauth.session.get(req_url)
+xmlstring = r.text
+xmlstring = re.sub(' xmlns="[^"]+"', '', xmlstring, count=1)
+root = ET.fromstring(xmlstring)
+count = 0
+for transaction in root.iter('transaction'):
+    transaction_type = transaction.find('type')
+    if transaction_type.text == 'trade':
+        players = transaction.find('players')
+        for player in players:
+            transaction_data = player.find('transaction_data')
+            source_team_name = transaction_data.find('source_team_name').text
+            destination_team = transaction_data.find('destination_team_name').text
+            print("Source: {}, Destination: {}".format(source_team_name, destination_team))
+            player_name = player.find('name')
+            player_fullname = player_name.find('full')
+            print(player_fullname.text)
