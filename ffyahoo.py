@@ -60,7 +60,6 @@ r = oauth.session.get(req_url)
 xmlstring = r.text
 xmlstring = re.sub(' xmlns="[^"]+"', '', xmlstring, count=1)
 root = ET.fromstring(xmlstring)
-count = 0
 for transaction in root.iter('transaction'):
     transaction_type = transaction.find('type')
     if transaction_type.text == 'trade':
