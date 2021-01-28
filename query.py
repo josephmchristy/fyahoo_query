@@ -18,18 +18,25 @@ url = "https://fantasysports.yahooapis.com/fantasy/v2"
 game_league_ids = {
     '2020': ('403', '6851')
 }
-league_id = '403.l.6851'
 
-req_url = url + "/league/"+league_id +\
-          "/transactions"
-r = oauth.session.get(req_url)
-xmlstring = r.text
-xmlstring = re.sub(' xmlns="[^"]+"', '', xmlstring, count=1)
-xmldict = xmltodict.parse(xmlstring)
-xmldict = xmldict['fantasy_content']['league']
-for transaction in xmldict['transactions']['transaction']:
-    print(transaction['transaction_key'])
-jsonstring = json.dumps(xmldict, indent=4)
-filename = 'txt_hockey.txt'
-with open(filename, 'w+') as x:
-    x.write(jsonstring)
+
+def yahoo_query(g_id='403', l_id='6851', t_id=None,
+                param1='league', param2='transactions'):
+    
+    # Request Yahoo API for parameters
+    league_id = g_id+'.l.'+l_id
+    if t_id:
+        league_id = league_id+'.t.'+t_id
+    req_url = url + "/"+param1+"/"+league_id +\
+              "/"+param2
+    r = oauth.session.get(req_url)
+
+    # Convert xml response into json
+    xmlstring = r.text
+    xmlstring = re.sub(' xmlns="[^"]+"', '', xmlstring, count=1)
+    xmldict = xmltodict.parse(xmlstring)
+    xmldict = xmldict['fantasy_content']['league']  # Remove added headers
+    jsonstring = json.dumps(xmldict, indent=4)
+    return jsonstring
+
+yahoo_query()

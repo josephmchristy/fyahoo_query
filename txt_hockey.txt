@@ -1,0 +1,2167 @@
+{
+    "league_key": "403.l.6851",
+    "league_id": "6851",
+    "name": "Sticks Out for Harambe 2.0",
+    "url": "https://hockey.fantasysports.yahoo.com/hockey/6851",
+    "logo_url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/59599726352_a4a584.jpg",
+    "draft_status": "postdraft",
+    "num_teams": "10",
+    "edit_key": "2021-01-28",
+    "weekly_deadline": "intraday",
+    "league_update_timestamp": "1611819348",
+    "scoring_type": "headpoint",
+    "league_type": "private",
+    "renew": null,
+    "renewed": null,
+    "iris_group_chat_id": null,
+    "allow_add_to_dl_extra_pos": "1",
+    "is_pro_league": "0",
+    "is_cash_league": "0",
+    "current_week": "2",
+    "start_week": "1",
+    "start_date": "2021-01-13",
+    "end_week": "15",
+    "end_date": "2021-05-02",
+    "game_code": "nhl",
+    "season": "2020",
+    "transactions": {
+        "@count": "65",
+        "transaction": [
+            {
+                "transaction_key": "403.l.6851.tr.70",
+                "transaction_id": "70",
+                "type": "add/drop",
+                "status": "successful",
+                "timestamp": "1611876721",
+                "players": {
+                    "@count": "2",
+                    "player": [
+                        {
+                            "player_key": "403.p.5365",
+                            "player_id": "5365",
+                            "name": {
+                                "full": "Adam Larsson",
+                                "first": "Adam",
+                                "last": "Larsson",
+                                "ascii_first": "Adam",
+                                "ascii_last": "Larsson"
+                            },
+                            "editorial_team_abbr": "Edm",
+                            "display_position": "D",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "add",
+                                "source_type": "freeagents",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.7",
+                                "destination_team_name": "TheLongStickOfTheLaw"
+                            }
+                        },
+                        {
+                            "player_key": "403.p.4805",
+                            "player_id": "4805",
+                            "name": {
+                                "full": "Mike Hoffman",
+                                "first": "Mike",
+                                "last": "Hoffman",
+                                "ascii_first": "Mike",
+                                "ascii_last": "Hoffman"
+                            },
+                            "editorial_team_abbr": "StL",
+                            "display_position": "LW,RW",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "drop",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.7",
+                                "source_team_name": "TheLongStickOfTheLaw",
+                                "destination_type": "waivers"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.69",
+                "transaction_id": "69",
+                "type": "add",
+                "status": "successful",
+                "timestamp": "1611855027",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.3734",
+                        "player_id": "3734",
+                        "name": {
+                            "full": "Jaroslav Halak",
+                            "first": "Jaroslav",
+                            "last": "Halak",
+                            "ascii_first": "Jaroslav",
+                            "ascii_last": "Halak"
+                        },
+                        "editorial_team_abbr": "Bos",
+                        "display_position": "G",
+                        "position_type": "G",
+                        "transaction_data": {
+                            "type": "add",
+                            "source_type": "freeagents",
+                            "destination_type": "team",
+                            "destination_team_key": "403.l.6851.t.2",
+                            "destination_team_name": "Rask City Bitch"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.67",
+                "transaction_id": "67",
+                "type": "add/drop",
+                "status": "successful",
+                "timestamp": "1611734940",
+                "faab_bid": "13",
+                "players": {
+                    "@count": "2",
+                    "player": [
+                        {
+                            "player_key": "403.p.5994",
+                            "player_id": "5994",
+                            "name": {
+                                "full": "Ryan Pulock",
+                                "first": "Ryan",
+                                "last": "Pulock",
+                                "ascii_first": "Ryan",
+                                "ascii_last": "Pulock"
+                            },
+                            "editorial_team_abbr": "NYI",
+                            "display_position": "D",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "add",
+                                "source_type": "waivers",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.4",
+                                "destination_team_name": "Joe\u2019s neglected son"
+                            }
+                        },
+                        {
+                            "player_key": "403.p.6877",
+                            "player_id": "6877",
+                            "name": {
+                                "full": "Kirill Kaprizov",
+                                "first": "Kirill",
+                                "last": "Kaprizov",
+                                "ascii_first": "Kirill",
+                                "ascii_last": "Kaprizov"
+                            },
+                            "editorial_team_abbr": "Min",
+                            "display_position": "LW,RW",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "drop",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.4",
+                                "source_team_name": "Joe\u2019s neglected son",
+                                "destination_type": "waivers"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.66",
+                "transaction_id": "66",
+                "type": "add/drop",
+                "status": "successful",
+                "timestamp": "1611734440",
+                "players": {
+                    "@count": "2",
+                    "player": [
+                        {
+                            "player_key": "403.p.6480",
+                            "player_id": "6480",
+                            "name": {
+                                "full": "Viktor Arvidsson",
+                                "first": "Viktor",
+                                "last": "Arvidsson",
+                                "ascii_first": "Viktor",
+                                "ascii_last": "Arvidsson"
+                            },
+                            "editorial_team_abbr": "Nsh",
+                            "display_position": "LW,RW",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "add",
+                                "source_type": "freeagents",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.1",
+                                "destination_team_name": "Shut Your 5 Hole"
+                            }
+                        },
+                        {
+                            "player_key": "403.p.3355",
+                            "player_id": "3355",
+                            "name": {
+                                "full": "Zach Parise",
+                                "first": "Zach",
+                                "last": "Parise",
+                                "ascii_first": "Zach",
+                                "ascii_last": "Parise"
+                            },
+                            "editorial_team_abbr": "Min",
+                            "display_position": "LW",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "drop",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.1",
+                                "source_team_name": "Shut Your 5 Hole",
+                                "destination_type": "waivers"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.65",
+                "transaction_id": "65",
+                "type": "add/drop",
+                "status": "successful",
+                "timestamp": "1611734413",
+                "players": {
+                    "@count": "2",
+                    "player": [
+                        {
+                            "player_key": "403.p.4265",
+                            "player_id": "4265",
+                            "name": {
+                                "full": "David Perron",
+                                "first": "David",
+                                "last": "Perron",
+                                "ascii_first": "David",
+                                "ascii_last": "Perron"
+                            },
+                            "editorial_team_abbr": "StL",
+                            "display_position": "LW,RW",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "add",
+                                "source_type": "freeagents",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.1",
+                                "destination_team_name": "Shut Your 5 Hole"
+                            }
+                        },
+                        {
+                            "player_key": "403.p.4186",
+                            "player_id": "4186",
+                            "name": {
+                                "full": "Ryan Reaves",
+                                "first": "Ryan",
+                                "last": "Reaves",
+                                "ascii_first": "Ryan",
+                                "ascii_last": "Reaves"
+                            },
+                            "editorial_team_abbr": "VGK",
+                            "display_position": "RW",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "drop",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.1",
+                                "source_team_name": "Shut Your 5 Hole",
+                                "destination_type": "waivers"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.64",
+                "transaction_id": "64",
+                "type": "drop",
+                "status": "successful",
+                "timestamp": "1611680304",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.4699",
+                        "player_id": "4699",
+                        "name": {
+                            "full": "Chris Kreider",
+                            "first": "Chris",
+                            "last": "Kreider",
+                            "ascii_first": "Chris",
+                            "ascii_last": "Kreider"
+                        },
+                        "editorial_team_abbr": "NYR",
+                        "display_position": "LW",
+                        "position_type": "P",
+                        "transaction_data": {
+                            "type": "drop",
+                            "source_type": "team",
+                            "source_team_key": "403.l.6851.t.2",
+                            "source_team_name": "Rask City Bitch",
+                            "destination_type": "waivers"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.63",
+                "transaction_id": "63",
+                "type": "add",
+                "status": "successful",
+                "timestamp": "1611648539",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.7874",
+                        "player_id": "7874",
+                        "name": {
+                            "full": "Pavel Francouz",
+                            "first": "Pavel",
+                            "last": "Francouz",
+                            "ascii_first": "Pavel",
+                            "ascii_last": "Francouz"
+                        },
+                        "editorial_team_abbr": "Col",
+                        "display_position": "G",
+                        "position_type": "G",
+                        "transaction_data": {
+                            "type": "add",
+                            "source_type": "waivers",
+                            "destination_type": "team",
+                            "destination_team_key": "403.l.6851.t.8",
+                            "destination_team_name": "The Vlasic Pickles"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.62",
+                "transaction_id": "62",
+                "type": "add/drop",
+                "status": "successful",
+                "timestamp": "1611629103",
+                "players": {
+                    "@count": "2",
+                    "player": [
+                        {
+                            "player_key": "403.p.5381",
+                            "player_id": "5381",
+                            "name": {
+                                "full": "Connor Murphy",
+                                "first": "Connor",
+                                "last": "Murphy",
+                                "ascii_first": "Connor",
+                                "ascii_last": "Murphy"
+                            },
+                            "editorial_team_abbr": "Chi",
+                            "display_position": "D",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "add",
+                                "source_type": "freeagents",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.3",
+                                "destination_team_name": "Pugs & Penguins"
+                            }
+                        },
+                        {
+                            "player_key": "403.p.6089",
+                            "player_id": "6089",
+                            "name": {
+                                "full": "Ryan Graves",
+                                "first": "Ryan",
+                                "last": "Graves",
+                                "ascii_first": "Ryan",
+                                "ascii_last": "Graves"
+                            },
+                            "editorial_team_abbr": "Col",
+                            "display_position": "D",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "drop",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.3",
+                                "source_team_name": "Pugs & Penguins",
+                                "destination_type": "waivers"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.61",
+                "transaction_id": "61",
+                "type": "add/drop",
+                "status": "successful",
+                "timestamp": "1611616916",
+                "players": {
+                    "@count": "2",
+                    "player": [
+                        {
+                            "player_key": "403.p.5853",
+                            "player_id": "5853",
+                            "name": {
+                                "full": "Linus Ullmark",
+                                "first": "Linus",
+                                "last": "Ullmark",
+                                "ascii_first": "Linus",
+                                "ascii_last": "Ullmark"
+                            },
+                            "editorial_team_abbr": "Buf",
+                            "display_position": "G",
+                            "position_type": "G",
+                            "transaction_data": {
+                                "type": "add",
+                                "source_type": "freeagents",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.8",
+                                "destination_team_name": "The Vlasic Pickles"
+                            }
+                        },
+                        {
+                            "player_key": "403.p.3734",
+                            "player_id": "3734",
+                            "name": {
+                                "full": "Jaroslav Halak",
+                                "first": "Jaroslav",
+                                "last": "Halak",
+                                "ascii_first": "Jaroslav",
+                                "ascii_last": "Halak"
+                            },
+                            "editorial_team_abbr": "Bos",
+                            "display_position": "G",
+                            "position_type": "G",
+                            "transaction_data": {
+                                "type": "drop",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.8",
+                                "source_team_name": "The Vlasic Pickles",
+                                "destination_type": "waivers"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.60",
+                "transaction_id": "60",
+                "type": "add/drop",
+                "status": "successful",
+                "timestamp": "1611616887",
+                "players": {
+                    "@count": "2",
+                    "player": [
+                        {
+                            "player_key": "403.p.4207",
+                            "player_id": "4207",
+                            "name": {
+                                "full": "Patric Hornqvist",
+                                "first": "Patric",
+                                "last": "Hornqvist",
+                                "ascii_first": "Patric",
+                                "ascii_last": "Hornqvist"
+                            },
+                            "editorial_team_abbr": "Fla",
+                            "display_position": "RW",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "add",
+                                "source_type": "freeagents",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.8",
+                                "destination_team_name": "The Vlasic Pickles"
+                            }
+                        },
+                        {
+                            "player_key": "403.p.5639",
+                            "player_id": "5639",
+                            "name": {
+                                "full": "Reilly Smith",
+                                "first": "Reilly",
+                                "last": "Smith",
+                                "ascii_first": "Reilly",
+                                "ascii_last": "Smith"
+                            },
+                            "editorial_team_abbr": "VGK",
+                            "display_position": "RW",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "drop",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.8",
+                                "source_team_name": "The Vlasic Pickles",
+                                "destination_type": "waivers"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.59",
+                "transaction_id": "59",
+                "type": "add",
+                "status": "successful",
+                "timestamp": "1611615058",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.5774",
+                        "player_id": "5774",
+                        "name": {
+                            "full": "Matt Murray",
+                            "first": "Matt",
+                            "last": "Murray",
+                            "ascii_first": "Matt",
+                            "ascii_last": "Murray"
+                        },
+                        "editorial_team_abbr": "Ott",
+                        "display_position": "G",
+                        "position_type": "G",
+                        "transaction_data": {
+                            "type": "add",
+                            "source_type": "freeagents",
+                            "destination_type": "team",
+                            "destination_team_key": "403.l.6851.t.8",
+                            "destination_team_name": "The Vlasic Pickles"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.58",
+                "transaction_id": "58",
+                "type": "add/drop",
+                "status": "successful",
+                "timestamp": "1611603021",
+                "players": {
+                    "@count": "2",
+                    "player": [
+                        {
+                            "player_key": "403.p.7636",
+                            "player_id": "7636",
+                            "name": {
+                                "full": "Drake Batherson",
+                                "first": "Drake",
+                                "last": "Batherson",
+                                "ascii_first": "Drake",
+                                "ascii_last": "Batherson"
+                            },
+                            "editorial_team_abbr": "Ott",
+                            "display_position": "RW",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "add",
+                                "source_type": "freeagents",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.6",
+                                "destination_team_name": "Matt's SOGgy Waffle"
+                            }
+                        },
+                        {
+                            "player_key": "403.p.5776",
+                            "player_id": "5776",
+                            "name": {
+                                "full": "Matt Grzelcyk",
+                                "first": "Matt",
+                                "last": "Grzelcyk",
+                                "ascii_first": "Matt",
+                                "ascii_last": "Grzelcyk"
+                            },
+                            "editorial_team_abbr": "Bos",
+                            "display_position": "D",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "drop",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.6",
+                                "source_team_name": "Matt's SOGgy Waffle",
+                                "destination_type": "waivers"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.57",
+                "transaction_id": "57",
+                "type": "add/drop",
+                "status": "successful",
+                "timestamp": "1611592714",
+                "players": {
+                    "@count": "2",
+                    "player": [
+                        {
+                            "player_key": "403.p.5010",
+                            "player_id": "5010",
+                            "name": {
+                                "full": "Justin Faulk",
+                                "first": "Justin",
+                                "last": "Faulk",
+                                "ascii_first": "Justin",
+                                "ascii_last": "Faulk"
+                            },
+                            "editorial_team_abbr": "StL",
+                            "display_position": "D",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "add",
+                                "source_type": "freeagents",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.9",
+                                "destination_team_name": "Don\u2019t Toews Me Bro"
+                            }
+                        },
+                        {
+                            "player_key": "403.p.6385",
+                            "player_id": "6385",
+                            "name": {
+                                "full": "Tony DeAngelo",
+                                "first": "Tony",
+                                "last": "DeAngelo",
+                                "ascii_first": "Tony",
+                                "ascii_last": "DeAngelo"
+                            },
+                            "editorial_team_abbr": "NYR",
+                            "display_position": "D",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "drop",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.9",
+                                "source_team_name": "Don\u2019t Toews Me Bro",
+                                "destination_type": "waivers"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.56",
+                "transaction_id": "56",
+                "type": "add",
+                "status": "successful",
+                "timestamp": "1611568677",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.3355",
+                        "player_id": "3355",
+                        "name": {
+                            "full": "Zach Parise",
+                            "first": "Zach",
+                            "last": "Parise",
+                            "ascii_first": "Zach",
+                            "ascii_last": "Parise"
+                        },
+                        "editorial_team_abbr": "Min",
+                        "display_position": "LW",
+                        "position_type": "P",
+                        "transaction_data": {
+                            "type": "add",
+                            "source_type": "freeagents",
+                            "destination_type": "team",
+                            "destination_team_key": "403.l.6851.t.1",
+                            "destination_team_name": "Shut Your 5 Hole"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.55",
+                "transaction_id": "55",
+                "type": "drop",
+                "status": "successful",
+                "timestamp": "1611567611",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.6002",
+                        "player_id": "6002",
+                        "name": {
+                            "full": "Andre Burakovsky",
+                            "first": "Andre",
+                            "last": "Burakovsky",
+                            "ascii_first": "Andre",
+                            "ascii_last": "Burakovsky"
+                        },
+                        "editorial_team_abbr": "Col",
+                        "display_position": "LW,RW",
+                        "position_type": "P",
+                        "transaction_data": {
+                            "type": "drop",
+                            "source_type": "team",
+                            "source_team_key": "403.l.6851.t.1",
+                            "source_team_name": "Shut Your 5 Hole",
+                            "destination_type": "waivers"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.54",
+                "transaction_id": "54",
+                "type": "add/drop",
+                "status": "successful",
+                "timestamp": "1611561674",
+                "players": {
+                    "@count": "2",
+                    "player": [
+                        {
+                            "player_key": "403.p.6476",
+                            "player_id": "6476",
+                            "name": {
+                                "full": "Devon Toews",
+                                "first": "Devon",
+                                "last": "Toews",
+                                "ascii_first": "Devon",
+                                "ascii_last": "Toews"
+                            },
+                            "editorial_team_abbr": "Col",
+                            "display_position": "D",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "add",
+                                "source_type": "freeagents",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.6",
+                                "destination_team_name": "Matt's SOGgy Waffle"
+                            }
+                        },
+                        {
+                            "player_key": "403.p.5994",
+                            "player_id": "5994",
+                            "name": {
+                                "full": "Ryan Pulock",
+                                "first": "Ryan",
+                                "last": "Pulock",
+                                "ascii_first": "Ryan",
+                                "ascii_last": "Pulock"
+                            },
+                            "editorial_team_abbr": "NYI",
+                            "display_position": "D",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "drop",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.6",
+                                "source_team_name": "Matt's SOGgy Waffle",
+                                "destination_type": "waivers"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.53",
+                "transaction_id": "53",
+                "type": "add",
+                "status": "successful",
+                "timestamp": "1611561645",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.8279",
+                        "player_id": "8279",
+                        "name": {
+                            "full": "Jack Hughes",
+                            "first": "Jack",
+                            "last": "Hughes",
+                            "ascii_first": "Jack",
+                            "ascii_last": "Hughes"
+                        },
+                        "editorial_team_abbr": "NJ",
+                        "display_position": "C,LW",
+                        "position_type": "P",
+                        "transaction_data": {
+                            "type": "add",
+                            "source_type": "freeagents",
+                            "destination_type": "team",
+                            "destination_team_key": "403.l.6851.t.6",
+                            "destination_team_name": "Matt's SOGgy Waffle"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.52",
+                "transaction_id": "52",
+                "type": "add",
+                "status": "successful",
+                "timestamp": "1611561636",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.3985",
+                        "player_id": "3985",
+                        "name": {
+                            "full": "Joe Pavelski",
+                            "first": "Joe",
+                            "last": "Pavelski",
+                            "ascii_first": "Joe",
+                            "ascii_last": "Pavelski"
+                        },
+                        "editorial_team_abbr": "Dal",
+                        "display_position": "C,RW",
+                        "position_type": "P",
+                        "transaction_data": {
+                            "type": "add",
+                            "source_type": "freeagents",
+                            "destination_type": "team",
+                            "destination_team_key": "403.l.6851.t.6",
+                            "destination_team_name": "Matt's SOGgy Waffle"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.51",
+                "transaction_id": "51",
+                "type": "drop",
+                "status": "successful",
+                "timestamp": "1611509991",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.7874",
+                        "player_id": "7874",
+                        "name": {
+                            "full": "Pavel Francouz",
+                            "first": "Pavel",
+                            "last": "Francouz",
+                            "ascii_first": "Pavel",
+                            "ascii_last": "Francouz"
+                        },
+                        "editorial_team_abbr": "Col",
+                        "display_position": "G",
+                        "position_type": "G",
+                        "transaction_data": {
+                            "type": "drop",
+                            "source_type": "team",
+                            "source_team_key": "403.l.6851.t.8",
+                            "source_team_name": "The Vlasic Pickles",
+                            "destination_type": "waivers"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.50",
+                "transaction_id": "50",
+                "type": "add",
+                "status": "successful",
+                "timestamp": "1611475739",
+                "faab_bid": "3",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.7111",
+                        "player_id": "7111",
+                        "name": {
+                            "full": "Pierre-Luc Dubois",
+                            "first": "Pierre-Luc",
+                            "last": "Dubois",
+                            "ascii_first": "Pierre-Luc",
+                            "ascii_last": "Dubois"
+                        },
+                        "editorial_team_abbr": "Wpg",
+                        "display_position": "C",
+                        "position_type": "P",
+                        "transaction_data": {
+                            "type": "add",
+                            "source_type": "waivers",
+                            "destination_type": "team",
+                            "destination_team_key": "403.l.6851.t.4",
+                            "destination_team_name": "Joe\u2019s neglected son"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.49",
+                "transaction_id": "49",
+                "type": "add",
+                "status": "successful",
+                "timestamp": "1611388880",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.5020",
+                        "player_id": "5020",
+                        "name": {
+                            "full": "Tyler Toffoli",
+                            "first": "Tyler",
+                            "last": "Toffoli",
+                            "ascii_first": "Tyler",
+                            "ascii_last": "Toffoli"
+                        },
+                        "editorial_team_abbr": "Mon",
+                        "display_position": "LW,RW",
+                        "position_type": "P",
+                        "transaction_data": {
+                            "type": "add",
+                            "source_type": "freeagents",
+                            "destination_type": "team",
+                            "destination_team_key": "403.l.6851.t.7",
+                            "destination_team_name": "TheLongStickOfTheLaw"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.48",
+                "transaction_id": "48",
+                "type": "add/drop",
+                "status": "successful",
+                "timestamp": "1611383914",
+                "players": {
+                    "@count": "2",
+                    "player": [
+                        {
+                            "player_key": "403.p.5988",
+                            "player_id": "5988",
+                            "name": {
+                                "full": "Bo Horvat",
+                                "first": "Bo",
+                                "last": "Horvat",
+                                "ascii_first": "Bo",
+                                "ascii_last": "Horvat"
+                            },
+                            "editorial_team_abbr": "Van",
+                            "display_position": "C",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "add",
+                                "source_type": "freeagents",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.7",
+                                "destination_team_name": "TheLongStickOfTheLaw"
+                            }
+                        },
+                        {
+                            "player_key": "403.p.7111",
+                            "player_id": "7111",
+                            "name": {
+                                "full": "Pierre-Luc Dubois",
+                                "first": "Pierre-Luc",
+                                "last": "Dubois",
+                                "ascii_first": "Pierre-Luc",
+                                "ascii_last": "Dubois"
+                            },
+                            "editorial_team_abbr": "Wpg",
+                            "display_position": "C",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "drop",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.7",
+                                "source_team_name": "TheLongStickOfTheLaw",
+                                "destination_type": "waivers"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.47",
+                "transaction_id": "47",
+                "type": "add",
+                "status": "successful",
+                "timestamp": "1611333803",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.6758",
+                        "player_id": "6758",
+                        "name": {
+                            "full": "Mathew Barzal",
+                            "first": "Mathew",
+                            "last": "Barzal",
+                            "ascii_first": "Mathew",
+                            "ascii_last": "Barzal"
+                        },
+                        "editorial_team_abbr": "NYI",
+                        "display_position": "C",
+                        "position_type": "P",
+                        "transaction_data": {
+                            "type": "add",
+                            "source_type": "freeagents",
+                            "destination_type": "team",
+                            "destination_team_key": "403.l.6851.t.2",
+                            "destination_team_name": "Rask City Bitch"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.46",
+                "transaction_id": "46",
+                "type": "add/drop",
+                "status": "successful",
+                "timestamp": "1611270744",
+                "players": {
+                    "@count": "2",
+                    "player": [
+                        {
+                            "player_key": "403.p.3776",
+                            "player_id": "3776",
+                            "name": {
+                                "full": "Bobby Ryan",
+                                "first": "Bobby",
+                                "last": "Ryan",
+                                "ascii_first": "Bobby",
+                                "ascii_last": "Ryan"
+                            },
+                            "editorial_team_abbr": "Det",
+                            "display_position": "LW,RW",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "add",
+                                "source_type": "freeagents",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.2",
+                                "destination_team_name": "Rask City Bitch"
+                            }
+                        },
+                        {
+                            "player_key": "403.p.3652",
+                            "player_id": "3652",
+                            "name": {
+                                "full": "Alexander Radulov",
+                                "first": "Alexander",
+                                "last": "Radulov",
+                                "ascii_first": "Alexander",
+                                "ascii_last": "Radulov"
+                            },
+                            "editorial_team_abbr": "Dal",
+                            "display_position": "LW,RW",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "drop",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.2",
+                                "source_team_name": "Rask City Bitch",
+                                "destination_type": "waivers"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.45",
+                "transaction_id": "45",
+                "type": "add",
+                "status": "successful",
+                "timestamp": "1611199508",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.4740",
+                        "player_id": "4740",
+                        "name": {
+                            "full": "Mikko Koskinen",
+                            "first": "Mikko",
+                            "last": "Koskinen",
+                            "ascii_first": "Mikko",
+                            "ascii_last": "Koskinen"
+                        },
+                        "editorial_team_abbr": "Edm",
+                        "display_position": "G",
+                        "position_type": "G",
+                        "transaction_data": {
+                            "type": "add",
+                            "source_type": "freeagents",
+                            "destination_type": "team",
+                            "destination_team_key": "403.l.6851.t.3",
+                            "destination_team_name": "Pugs & Penguins"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.44",
+                "transaction_id": "44",
+                "type": "drop",
+                "status": "successful",
+                "timestamp": "1611093094",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.5261",
+                        "player_id": "5261",
+                        "name": {
+                            "full": "Mark Borowiecki",
+                            "first": "Mark",
+                            "last": "Borowiecki",
+                            "ascii_first": "Mark",
+                            "ascii_last": "Borowiecki"
+                        },
+                        "editorial_team_abbr": "Nsh",
+                        "display_position": "D",
+                        "position_type": "P",
+                        "transaction_data": {
+                            "type": "drop",
+                            "source_type": "team",
+                            "source_team_key": "403.l.6851.t.7",
+                            "source_team_name": "TheLongStickOfTheLaw",
+                            "destination_type": "waivers"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.43",
+                "transaction_id": "43",
+                "type": "add",
+                "status": "successful",
+                "timestamp": "1611086841",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.4020",
+                        "player_id": "4020",
+                        "name": {
+                            "full": "Alexander Edler",
+                            "first": "Alexander",
+                            "last": "Edler",
+                            "ascii_first": "Alexander",
+                            "ascii_last": "Edler"
+                        },
+                        "editorial_team_abbr": "Van",
+                        "display_position": "D",
+                        "position_type": "P",
+                        "transaction_data": {
+                            "type": "add",
+                            "source_type": "freeagents",
+                            "destination_type": "team",
+                            "destination_team_key": "403.l.6851.t.8",
+                            "destination_team_name": "The Vlasic Pickles"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.42",
+                "transaction_id": "42",
+                "type": "add",
+                "status": "successful",
+                "timestamp": "1611086817",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.6368",
+                        "player_id": "6368",
+                        "name": {
+                            "full": "Sam Reinhart",
+                            "first": "Sam",
+                            "last": "Reinhart",
+                            "ascii_first": "Sam",
+                            "ascii_last": "Reinhart"
+                        },
+                        "editorial_team_abbr": "Buf",
+                        "display_position": "C,RW",
+                        "position_type": "P",
+                        "transaction_data": {
+                            "type": "add",
+                            "source_type": "freeagents",
+                            "destination_type": "team",
+                            "destination_team_key": "403.l.6851.t.8",
+                            "destination_team_name": "The Vlasic Pickles"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.41",
+                "transaction_id": "41",
+                "type": "drop",
+                "status": "successful",
+                "timestamp": "1611086706",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.3829",
+                        "player_id": "3829",
+                        "name": {
+                            "full": "Marc-Edouard Vlasic",
+                            "first": "Marc-Edouard",
+                            "last": "Vlasic",
+                            "ascii_first": "Marc-Edouard",
+                            "ascii_last": "Vlasic"
+                        },
+                        "editorial_team_abbr": "SJ",
+                        "display_position": "D",
+                        "position_type": "P",
+                        "transaction_data": {
+                            "type": "drop",
+                            "source_type": "team",
+                            "source_team_key": "403.l.6851.t.8",
+                            "source_team_name": "The Vlasic Pickles",
+                            "destination_type": "waivers"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.40",
+                "transaction_id": "40",
+                "type": "add/drop",
+                "status": "successful",
+                "timestamp": "1611034421",
+                "players": {
+                    "@count": "2",
+                    "player": [
+                        {
+                            "player_key": "403.p.5985",
+                            "player_id": "5985",
+                            "name": {
+                                "full": "Sean Monahan",
+                                "first": "Sean",
+                                "last": "Monahan",
+                                "ascii_first": "Sean",
+                                "ascii_last": "Monahan"
+                            },
+                            "editorial_team_abbr": "Cgy",
+                            "display_position": "C",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "add",
+                                "source_type": "freeagents",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.1",
+                                "destination_team_name": "Shut Your 5 Hole"
+                            }
+                        },
+                        {
+                            "player_key": "403.p.5988",
+                            "player_id": "5988",
+                            "name": {
+                                "full": "Bo Horvat",
+                                "first": "Bo",
+                                "last": "Horvat",
+                                "ascii_first": "Bo",
+                                "ascii_last": "Horvat"
+                            },
+                            "editorial_team_abbr": "Van",
+                            "display_position": "C",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "drop",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.1",
+                                "source_team_name": "Shut Your 5 Hole",
+                                "destination_type": "waivers"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.39",
+                "transaction_id": "39",
+                "type": "add/drop",
+                "status": "successful",
+                "timestamp": "1610914078",
+                "players": {
+                    "@count": "2",
+                    "player": [
+                        {
+                            "player_key": "403.p.7528",
+                            "player_id": "7528",
+                            "name": {
+                                "full": "Nick Suzuki",
+                                "first": "Nick",
+                                "last": "Suzuki",
+                                "ascii_first": "Nick",
+                                "ascii_last": "Suzuki"
+                            },
+                            "editorial_team_abbr": "Mon",
+                            "display_position": "C,RW",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "add",
+                                "source_type": "freeagents",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.3",
+                                "destination_team_name": "Pugs & Penguins"
+                            }
+                        },
+                        {
+                            "player_key": "403.p.6758",
+                            "player_id": "6758",
+                            "name": {
+                                "full": "Mathew Barzal",
+                                "first": "Mathew",
+                                "last": "Barzal",
+                                "ascii_first": "Mathew",
+                                "ascii_last": "Barzal"
+                            },
+                            "editorial_team_abbr": "NYI",
+                            "display_position": "C",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "drop",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.3",
+                                "source_team_name": "Pugs & Penguins",
+                                "destination_type": "waivers"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.38",
+                "transaction_id": "38",
+                "type": "add/drop",
+                "status": "successful",
+                "timestamp": "1610913658",
+                "players": {
+                    "@count": "2",
+                    "player": [
+                        {
+                            "player_key": "403.p.5573",
+                            "player_id": "5573",
+                            "name": {
+                                "full": "Ondrej Palat",
+                                "first": "Ondrej",
+                                "last": "Palat",
+                                "ascii_first": "Ondrej",
+                                "ascii_last": "Palat"
+                            },
+                            "editorial_team_abbr": "TB",
+                            "display_position": "LW",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "add",
+                                "source_type": "freeagents",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.3",
+                                "destination_team_name": "Pugs & Penguins"
+                            }
+                        },
+                        {
+                            "player_key": "403.p.4265",
+                            "player_id": "4265",
+                            "name": {
+                                "full": "David Perron",
+                                "first": "David",
+                                "last": "Perron",
+                                "ascii_first": "David",
+                                "ascii_last": "Perron"
+                            },
+                            "editorial_team_abbr": "StL",
+                            "display_position": "LW,RW",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "drop",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.3",
+                                "source_team_name": "Pugs & Penguins",
+                                "destination_type": "waivers"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.37",
+                "transaction_id": "37",
+                "type": "add/drop",
+                "status": "successful",
+                "timestamp": "1610909158",
+                "players": {
+                    "@count": "2",
+                    "player": [
+                        {
+                            "player_key": "403.p.6784",
+                            "player_id": "6784",
+                            "name": {
+                                "full": "MacKenzie Blackwood",
+                                "first": "MacKenzie",
+                                "last": "Blackwood",
+                                "ascii_first": "MacKenzie",
+                                "ascii_last": "Blackwood"
+                            },
+                            "editorial_team_abbr": "NJ",
+                            "display_position": "G",
+                            "position_type": "G",
+                            "transaction_data": {
+                                "type": "add",
+                                "source_type": "freeagents",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.4",
+                                "destination_team_name": "Joe\u2019s neglected son"
+                            }
+                        },
+                        {
+                            "player_key": "403.p.7161",
+                            "player_id": "7161",
+                            "name": {
+                                "full": "Filip Hronek",
+                                "first": "Filip",
+                                "last": "Hronek",
+                                "ascii_first": "Filip",
+                                "ascii_last": "Hronek"
+                            },
+                            "editorial_team_abbr": "Det",
+                            "display_position": "D",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "drop",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.4",
+                                "source_team_name": "Joe\u2019s neglected son",
+                                "destination_type": "waivers"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.36",
+                "transaction_id": "36",
+                "type": "add/drop",
+                "status": "successful",
+                "timestamp": "1610787565",
+                "players": {
+                    "@count": "2",
+                    "player": [
+                        {
+                            "player_key": "403.p.4186",
+                            "player_id": "4186",
+                            "name": {
+                                "full": "Ryan Reaves",
+                                "first": "Ryan",
+                                "last": "Reaves",
+                                "ascii_first": "Ryan",
+                                "ascii_last": "Reaves"
+                            },
+                            "editorial_team_abbr": "VGK",
+                            "display_position": "RW",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "add",
+                                "source_type": "freeagents",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.1",
+                                "destination_team_name": "Shut Your 5 Hole"
+                            }
+                        },
+                        {
+                            "player_key": "403.p.4207",
+                            "player_id": "4207",
+                            "name": {
+                                "full": "Patric Hornqvist",
+                                "first": "Patric",
+                                "last": "Hornqvist",
+                                "ascii_first": "Patric",
+                                "ascii_last": "Hornqvist"
+                            },
+                            "editorial_team_abbr": "Fla",
+                            "display_position": "RW",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "drop",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.1",
+                                "source_team_name": "Shut Your 5 Hole",
+                                "destination_type": "waivers"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.35",
+                "transaction_id": "35",
+                "type": "add/drop",
+                "status": "successful",
+                "timestamp": "1610679273",
+                "players": {
+                    "@count": "2",
+                    "player": [
+                        {
+                            "player_key": "403.p.5776",
+                            "player_id": "5776",
+                            "name": {
+                                "full": "Matt Grzelcyk",
+                                "first": "Matt",
+                                "last": "Grzelcyk",
+                                "ascii_first": "Matt",
+                                "ascii_last": "Grzelcyk"
+                            },
+                            "editorial_team_abbr": "Bos",
+                            "display_position": "D",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "add",
+                                "source_type": "freeagents",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.6",
+                                "destination_team_name": "Matt's SOGgy Waffle"
+                            }
+                        },
+                        {
+                            "player_key": "403.p.7912",
+                            "player_id": "7912",
+                            "name": {
+                                "full": "Joel Farabee",
+                                "first": "Joel",
+                                "last": "Farabee",
+                                "ascii_first": "Joel",
+                                "ascii_last": "Farabee"
+                            },
+                            "editorial_team_abbr": "Phi",
+                            "display_position": "LW,RW",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "drop",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.6",
+                                "source_team_name": "Matt's SOGgy Waffle",
+                                "destination_type": "waivers"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.34",
+                "transaction_id": "34",
+                "type": "drop",
+                "status": "successful",
+                "timestamp": "1610671996",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.4020",
+                        "player_id": "4020",
+                        "name": {
+                            "full": "Alexander Edler",
+                            "first": "Alexander",
+                            "last": "Edler",
+                            "ascii_first": "Alexander",
+                            "ascii_last": "Edler"
+                        },
+                        "editorial_team_abbr": "Van",
+                        "display_position": "D",
+                        "position_type": "P",
+                        "transaction_data": {
+                            "type": "drop",
+                            "source_type": "team",
+                            "source_team_key": "403.l.6851.t.6",
+                            "source_team_name": "Matt's SOGgy Waffle",
+                            "destination_type": "waivers"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.33",
+                "transaction_id": "33",
+                "type": "add",
+                "status": "successful",
+                "timestamp": "1610658583",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.5753",
+                        "player_id": "5753",
+                        "name": {
+                            "full": "Joonas Korpisalo",
+                            "first": "Joonas",
+                            "last": "Korpisalo",
+                            "ascii_first": "Joonas",
+                            "ascii_last": "Korpisalo"
+                        },
+                        "editorial_team_abbr": "Cls",
+                        "display_position": "G",
+                        "position_type": "G",
+                        "transaction_data": {
+                            "type": "add",
+                            "source_type": "freeagents",
+                            "destination_type": "team",
+                            "destination_team_key": "403.l.6851.t.7",
+                            "destination_team_name": "TheLongStickOfTheLaw"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.32",
+                "transaction_id": "32",
+                "type": "trade",
+                "status": "successful",
+                "timestamp": "1610611739",
+                "trader_team_key": "403.l.6851.t.4",
+                "trader_team_name": "Joe\u2019s neglected son",
+                "tradee_team_key": "403.l.6851.t.6",
+                "tradee_team_name": "Matt's SOGgy Waffle",
+                "players": {
+                    "@count": "2",
+                    "player": [
+                        {
+                            "player_key": "403.p.5370",
+                            "player_id": "5370",
+                            "name": {
+                                "full": "Dougie Hamilton",
+                                "first": "Dougie",
+                                "last": "Hamilton",
+                                "ascii_first": "Dougie",
+                                "ascii_last": "Hamilton"
+                            },
+                            "editorial_team_abbr": "Car",
+                            "display_position": "D",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "trade",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.4",
+                                "source_team_name": "Joe\u2019s neglected son",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.6",
+                                "destination_team_name": "Matt's SOGgy Waffle"
+                            }
+                        },
+                        {
+                            "player_key": "403.p.3641",
+                            "player_id": "3641",
+                            "name": {
+                                "full": "Blake Wheeler",
+                                "first": "Blake",
+                                "last": "Wheeler",
+                                "ascii_first": "Blake",
+                                "ascii_last": "Wheeler"
+                            },
+                            "editorial_team_abbr": "Wpg",
+                            "display_position": "C,RW",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "trade",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.6",
+                                "source_team_name": "Matt's SOGgy Waffle",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.4",
+                                "destination_team_name": "Joe\u2019s neglected son"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.31",
+                "transaction_id": "31",
+                "type": "add/drop",
+                "status": "successful",
+                "timestamp": "1610604514",
+                "players": {
+                    "@count": "2",
+                    "player": [
+                        {
+                            "player_key": "403.p.7912",
+                            "player_id": "7912",
+                            "name": {
+                                "full": "Joel Farabee",
+                                "first": "Joel",
+                                "last": "Farabee",
+                                "ascii_first": "Joel",
+                                "ascii_last": "Farabee"
+                            },
+                            "editorial_team_abbr": "Phi",
+                            "display_position": "LW,RW",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "add",
+                                "source_type": "freeagents",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.6",
+                                "destination_team_name": "Matt's SOGgy Waffle"
+                            }
+                        },
+                        {
+                            "player_key": "403.p.6060",
+                            "player_id": "6060",
+                            "name": {
+                                "full": "Anthony Duclair",
+                                "first": "Anthony",
+                                "last": "Duclair",
+                                "ascii_first": "Anthony",
+                                "ascii_last": "Duclair"
+                            },
+                            "editorial_team_abbr": "Fla",
+                            "display_position": "LW,RW",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "drop",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.6",
+                                "source_team_name": "Matt's SOGgy Waffle",
+                                "destination_type": "waivers"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.30",
+                "transaction_id": "30",
+                "type": "commish",
+                "status": "successful",
+                "timestamp": "1610584484"
+            },
+            {
+                "transaction_key": "403.l.6851.tr.29",
+                "transaction_id": "29",
+                "type": "commish",
+                "status": "successful",
+                "timestamp": "1610584484"
+            },
+            {
+                "transaction_key": "403.l.6851.tr.28",
+                "transaction_id": "28",
+                "type": "add",
+                "status": "successful",
+                "timestamp": "1610564488",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.4792",
+                        "player_id": "4792",
+                        "name": {
+                            "full": "Tomas Tatar",
+                            "first": "Tomas",
+                            "last": "Tatar",
+                            "ascii_first": "Tomas",
+                            "ascii_last": "Tatar"
+                        },
+                        "editorial_team_abbr": "Mon",
+                        "display_position": "LW,RW",
+                        "position_type": "P",
+                        "transaction_data": {
+                            "type": "add",
+                            "source_type": "freeagents",
+                            "destination_type": "team",
+                            "destination_team_key": "403.l.6851.t.5",
+                            "destination_team_name": "PUCK IT"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.26",
+                "transaction_id": "26",
+                "type": "add/drop",
+                "status": "successful",
+                "timestamp": "1610540582",
+                "players": {
+                    "@count": "2",
+                    "player": [
+                        {
+                            "player_key": "403.p.7161",
+                            "player_id": "7161",
+                            "name": {
+                                "full": "Filip Hronek",
+                                "first": "Filip",
+                                "last": "Hronek",
+                                "ascii_first": "Filip",
+                                "ascii_last": "Hronek"
+                            },
+                            "editorial_team_abbr": "Det",
+                            "display_position": "D",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "add",
+                                "source_type": "waivers",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.4",
+                                "destination_team_name": "Joe\u2019s neglected son"
+                            }
+                        },
+                        {
+                            "player_key": "403.p.6368",
+                            "player_id": "6368",
+                            "name": {
+                                "full": "Sam Reinhart",
+                                "first": "Sam",
+                                "last": "Reinhart",
+                                "ascii_first": "Sam",
+                                "ascii_last": "Reinhart"
+                            },
+                            "editorial_team_abbr": "Buf",
+                            "display_position": "C,RW",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "drop",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.4",
+                                "source_team_name": "Joe\u2019s neglected son",
+                                "destination_type": "waivers"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.25",
+                "transaction_id": "25",
+                "type": "add",
+                "status": "successful",
+                "timestamp": "1610540582",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.4962",
+                        "player_id": "4962",
+                        "name": {
+                            "full": "Tyler Seguin",
+                            "first": "Tyler",
+                            "last": "Seguin",
+                            "ascii_first": "Tyler",
+                            "ascii_last": "Seguin"
+                        },
+                        "editorial_team_abbr": "Dal",
+                        "display_position": "C,RW",
+                        "position_type": "P",
+                        "transaction_data": {
+                            "type": "add",
+                            "source_type": "waivers",
+                            "destination_type": "team",
+                            "destination_team_key": "403.l.6851.t.4",
+                            "destination_team_name": "Joe\u2019s neglected son"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.24",
+                "transaction_id": "24",
+                "type": "add",
+                "status": "successful",
+                "timestamp": "1610540581",
+                "faab_bid": "1",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.6060",
+                        "player_id": "6060",
+                        "name": {
+                            "full": "Anthony Duclair",
+                            "first": "Anthony",
+                            "last": "Duclair",
+                            "ascii_first": "Anthony",
+                            "ascii_last": "Duclair"
+                        },
+                        "editorial_team_abbr": "Fla",
+                        "display_position": "LW,RW",
+                        "position_type": "P",
+                        "transaction_data": {
+                            "type": "add",
+                            "source_type": "waivers",
+                            "destination_type": "team",
+                            "destination_team_key": "403.l.6851.t.6",
+                            "destination_team_name": "Matt's SOGgy Waffle"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.23",
+                "transaction_id": "23",
+                "type": "add",
+                "status": "successful",
+                "timestamp": "1610540581",
+                "faab_bid": "2",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.5988",
+                        "player_id": "5988",
+                        "name": {
+                            "full": "Bo Horvat",
+                            "first": "Bo",
+                            "last": "Horvat",
+                            "ascii_first": "Bo",
+                            "ascii_last": "Horvat"
+                        },
+                        "editorial_team_abbr": "Van",
+                        "display_position": "C",
+                        "position_type": "P",
+                        "transaction_data": {
+                            "type": "add",
+                            "source_type": "waivers",
+                            "destination_type": "team",
+                            "destination_team_key": "403.l.6851.t.1",
+                            "destination_team_name": "Shut Your 5 Hole"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.22",
+                "transaction_id": "22",
+                "type": "add",
+                "status": "successful",
+                "timestamp": "1610540581",
+                "faab_bid": "3",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.6002",
+                        "player_id": "6002",
+                        "name": {
+                            "full": "Andre Burakovsky",
+                            "first": "Andre",
+                            "last": "Burakovsky",
+                            "ascii_first": "Andre",
+                            "ascii_last": "Burakovsky"
+                        },
+                        "editorial_team_abbr": "Col",
+                        "display_position": "LW,RW",
+                        "position_type": "P",
+                        "transaction_data": {
+                            "type": "add",
+                            "source_type": "waivers",
+                            "destination_type": "team",
+                            "destination_team_key": "403.l.6851.t.1",
+                            "destination_team_name": "Shut Your 5 Hole"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.21",
+                "transaction_id": "21",
+                "type": "add",
+                "status": "successful",
+                "timestamp": "1610540581",
+                "faab_bid": "5",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.6375",
+                        "player_id": "6375",
+                        "name": {
+                            "full": "Nikolaj Ehlers",
+                            "first": "Nikolaj",
+                            "last": "Ehlers",
+                            "ascii_first": "Nikolaj",
+                            "ascii_last": "Ehlers"
+                        },
+                        "editorial_team_abbr": "Wpg",
+                        "display_position": "LW,RW",
+                        "position_type": "P",
+                        "transaction_data": {
+                            "type": "add",
+                            "source_type": "waivers",
+                            "destination_type": "team",
+                            "destination_team_key": "403.l.6851.t.6",
+                            "destination_team_name": "Matt's SOGgy Waffle"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.20",
+                "transaction_id": "20",
+                "type": "trade",
+                "status": "successful",
+                "timestamp": "1610540581",
+                "trader_team_key": "403.l.6851.t.10",
+                "trader_team_name": "Blaise's Bold Team",
+                "tradee_team_key": "403.l.6851.t.2",
+                "tradee_team_name": "Rask City Bitch",
+                "players": {
+                    "@count": "2",
+                    "player": [
+                        {
+                            "player_key": "403.p.6765",
+                            "player_id": "6765",
+                            "name": {
+                                "full": "Brock Boeser",
+                                "first": "Brock",
+                                "last": "Boeser",
+                                "ascii_first": "Brock",
+                                "ascii_last": "Boeser"
+                            },
+                            "editorial_team_abbr": "Van",
+                            "display_position": "RW",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "trade",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.10",
+                                "source_team_name": "Blaise's Bold Team",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.2",
+                                "destination_team_name": "Rask City Bitch"
+                            }
+                        },
+                        {
+                            "player_key": "403.p.6377",
+                            "player_id": "6377",
+                            "name": {
+                                "full": "Kevin Fiala",
+                                "first": "Kevin",
+                                "last": "Fiala",
+                                "ascii_first": "Kevin",
+                                "ascii_last": "Fiala"
+                            },
+                            "editorial_team_abbr": "Min",
+                            "display_position": "LW,RW",
+                            "position_type": "P",
+                            "transaction_data": {
+                                "type": "trade",
+                                "source_type": "team",
+                                "source_team_key": "403.l.6851.t.2",
+                                "source_team_name": "Rask City Bitch",
+                                "destination_type": "team",
+                                "destination_team_key": "403.l.6851.t.10",
+                                "destination_team_name": "Blaise's Bold Team"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.19",
+                "transaction_id": "19",
+                "type": "drop",
+                "status": "successful",
+                "timestamp": "1610390415",
+                "players": {
+                    "@count": "1",
+                    "player": {
+                        "player_key": "403.p.3351",
+                        "player_id": "3351",
+                        "name": {
+                            "full": "Dustin Brown",
+                            "first": "Dustin",
+                            "last": "Brown",
+                            "ascii_first": "Dustin",
+                            "ascii_last": "Brown"
+                        },
+                        "editorial_team_abbr": "LA",
+                        "display_position": "RW",
+                        "position_type": "P",
+                        "transaction_data": {
+                            "type": "drop",
+                            "source_type": "team",
+                            "source_team_key": "403.l.6851.t.6",
+                            "source_team_name": "Matt's SOGgy Waffle",
+                            "destination_type": "waivers"
+                        }
+                    }
+                }
+            },
+            {
+                "transaction_key": "403.l.6851.tr.16",
+                "transaction_id": "16",
+                "type": "commish",
+                "status": "successful",
+                "timestamp": "1610242725"
+            },
+            {
+                "transaction_key": "403.l.6851.tr.15",
+                "transaction_id": "15",
+                "type": "commish",
+                "status": "successful",
+                "timestamp": "1610242725"
+            },
+            {
+                "transaction_key": "403.l.6851.tr.14",
+                "transaction_id": "14",
+                "type": "commish",
+                "status": "successful",
+                "timestamp": "1610242725"
+            },
+            {
+                "transaction_key": "403.l.6851.tr.12",
+                "transaction_id": "12",
+                "type": "commish",
+                "status": "successful",
+                "timestamp": "1609737447"
+            },
+            {
+                "transaction_key": "403.l.6851.tr.11",
+                "transaction_id": "11",
+                "type": "commish",
+                "status": "successful",
+                "timestamp": "1609203838"
+            },
+            {
+                "transaction_key": "403.l.6851.tr.10",
+                "transaction_id": "10",
+                "type": "commish",
+                "status": "successful",
+                "timestamp": "1609203838"
+            },
+            {
+                "transaction_key": "403.l.6851.tr.9",
+                "transaction_id": "9",
+                "type": "commish",
+                "status": "successful",
+                "timestamp": "1608513893"
+            },
+            {
+                "transaction_key": "403.l.6851.tr.8",
+                "transaction_id": "8",
+                "type": "commish",
+                "status": "successful",
+                "timestamp": "1608102282"
+            },
+            {
+                "transaction_key": "403.l.6851.tr.7",
+                "transaction_id": "7",
+                "type": "commish",
+                "status": "successful",
+                "timestamp": "1607460390"
+            },
+            {
+                "transaction_key": "403.l.6851.tr.6",
+                "transaction_id": "6",
+                "type": "commish",
+                "status": "successful",
+                "timestamp": "1607132169"
+            },
+            {
+                "transaction_key": "403.l.6851.tr.5",
+                "transaction_id": "5",
+                "type": "commish",
+                "status": "successful",
+                "timestamp": "1607132169"
+            },
+            {
+                "transaction_key": "403.l.6851.tr.4",
+                "transaction_id": "4",
+                "type": "commish",
+                "status": "successful",
+                "timestamp": "1607131819"
+            },
+            {
+                "transaction_key": "403.l.6851.tr.3",
+                "transaction_id": "3",
+                "type": "commish",
+                "status": "successful",
+                "timestamp": "1607131819"
+            },
+            {
+                "transaction_key": "403.l.6851.tr.2",
+                "transaction_id": "2",
+                "type": "commish",
+                "status": "successful",
+                "timestamp": "1607131753"
+            },
+            {
+                "transaction_key": "403.l.6851.tr.1",
+                "transaction_id": "1",
+                "type": "commish",
+                "status": "successful",
+                "timestamp": "1607131753"
+            }
+        ]
+    }
+}
