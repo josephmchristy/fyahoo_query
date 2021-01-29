@@ -1,11 +1,8 @@
 #! python
 
-import xml.etree.ElementTree as ET
 import re
-import datetime
 import json
 import xmltodict
-import pprint
 
 from yahoo_oauth import OAuth2
 
@@ -22,7 +19,7 @@ game_league_ids = {
 
 # Query Yahoo API for data specified by url path
 def yahoo_query(url_path):
-    
+
     # Request Yahoo API for parameters
     req_url = url + url_path
     r = oauth.session.get(req_url)
@@ -35,6 +32,7 @@ def yahoo_query(url_path):
     jsonstring = json.dumps(xmldict, indent=4)
     return jsonstring
 
+
 # Get all transactions for the league
 def get_league_transactions(game_id, league_id):
     
@@ -45,5 +43,6 @@ def get_league_transactions(game_id, league_id):
     # Request and return data
     league_transactions = yahoo_query(url_path)
     return league_transactions
+
 
 print(get_league_transactions("403", "6851"))
