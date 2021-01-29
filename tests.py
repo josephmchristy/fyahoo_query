@@ -1,7 +1,6 @@
 #! python
 
 import unittest
-import query
 
 
 class PlayerTests(unittest.TestCase):

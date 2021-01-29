@@ -35,7 +35,7 @@ def yahoo_query(url_path):
 
 # Get all transactions for the league
 def get_league_transactions(game_id, league_id):
-    
+
     # Construct the url
     l_id = game_id + ".l." + league_id
     url_path = "/league/" + l_id + "/transactions"
