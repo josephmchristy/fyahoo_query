@@ -35,11 +35,11 @@ class FYahooQuery():
 
     # Query Yahoo API for requested data specified by url path
     def fyahoo_query(self, url_path, req_data):
-    
+ 
         # Request Yahoo API for parameters
         req_url = self.url + url_path
         r = self.oauth.session.get(req_url)
-    
+ 
         # Convert xml response into json
         xmlstring = r.text
         xmlstring = re.sub(' xmlns="[^"]+"', '', xmlstring, count=1)
@@ -47,14 +47,14 @@ class FYahooQuery():
         xmldict = xmldict['fantasy_content'][req_data]  # Remove added headers
         jsonstring = json.dumps(xmldict, indent=4)
         return jsonstring
-    
+
     # Get game key
     def get_game_id(self):
-        
+ 
         # Request json data
         url_path = "/games;game_codes=" + self.game_code + ";seasons=" + self.season
         fyahoo_data = self.fyahoo_query(url_path, "games")
-        
+
         # Extract game id from json data
         fyahoo_data = json.loads(fyahoo_data)
         game_id = fyahoo_data["game"]["game_key"]
@@ -64,7 +64,7 @@ class FYahooQuery():
     def get_league_settings(self):
         url_path = "/league/" + self.league_key + "/settings"
         return self.fyahoo_query(url_path, "league")
-    
+ 
     # Get all transactions for the league
     def get_league_transactions(self):
         url_path = "/league/" + self.league_key + "/transactions"
