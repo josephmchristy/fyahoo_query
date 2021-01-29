@@ -1,3 +1,2 @@
 yahoo_oauth
-openpyxl
 xmltodict

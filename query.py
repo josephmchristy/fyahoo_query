@@ -20,15 +20,11 @@ game_league_ids = {
 }
 
 
-def yahoo_query(g_id='403', l_id='6851', t_id=None,
-                param1='league', param2='transactions'):
+# Query Yahoo API for data specified by url path
+def yahoo_query(url_path):
     
     # Request Yahoo API for parameters
-    league_id = g_id+'.l.'+l_id
-    if t_id:
-        league_id = league_id+'.t.'+t_id
-    req_url = url + "/"+param1+"/"+league_id +\
-              "/"+param2
+    req_url = url + url_path
     r = oauth.session.get(req_url)
 
     # Convert xml response into json
@@ -39,4 +35,15 @@ def yahoo_query(g_id='403', l_id='6851', t_id=None,
     jsonstring = json.dumps(xmldict, indent=4)
     return jsonstring
 
-yahoo_query()
+# Get all transactions for the league
+def get_league_transactions(game_id, league_id):
+    
+    # Construct the url
+    l_id = game_id + ".l." + league_id
+    url_path = "/league/" + l_id + "/transactions"
+
+    # Request and return data
+    league_transactions = yahoo_query(url_path)
+    return league_transactions
+
+print(get_league_transactions("403", "6851"))
