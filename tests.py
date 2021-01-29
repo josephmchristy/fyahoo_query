@@ -1,7 +1,12 @@
 #! python
 
+import unittest
 import query
 
-jsonstr = query.yahoo_query()
 
-print(jsonstr)
+class PlayerTests(unittest.TestCase):
+    pass
+
+
+if __name__ == '__main__':
+    unittest.main()
