@@ -13,7 +13,6 @@ game_league_ids = {
 
 class FYahooQuery():
 
-
     def __init__(self, league_id, game_code="nfl", season="2020", game_id=None):
         self.league_id = str(league_id)
         self.game_code = game_code
@@ -24,7 +23,7 @@ class FYahooQuery():
         self.oauth = OAuth2(None, None, from_file='private.json')
         if not self.oauth.token_is_valid():
             self.oauth.refresh_access_token()
-    
+
         # Retrieve the game id if none was passed in
         if game_id:
             self.game_id = str(game_id)
@@ -33,7 +32,6 @@ class FYahooQuery():
 
         # Construct the league key
         self.league_key = self.game_id + ".l." + self.league_id
-
 
     # Query Yahoo API for requested data specified by url path
     def fyahoo_query(self, url_path, req_data):
@@ -50,7 +48,6 @@ class FYahooQuery():
         jsonstring = json.dumps(xmldict, indent=4)
         return jsonstring
     
-
     # Get game key
     def get_game_id(self):
         
@@ -63,19 +60,16 @@ class FYahooQuery():
         game_id = fyahoo_data["game"]["game_key"]
         return game_id
 
-
     # Get all settings for the league
     def get_league_settings(self):
         url_path = "/league/" + self.league_key + "/settings"
         return self.fyahoo_query(url_path, "league")
     
-    
     # Get all transactions for the league
     def get_league_transactions(self):
         url_path = "/league/" + self.league_key + "/transactions"
         return self.fyahoo_query(url_path, "league")
-    
-    
+
     # Get team statistics by given week
     def get_team_stats(self, team_id, week="current"):
         team_key = self.league_key + ".t." + str(team_id)
