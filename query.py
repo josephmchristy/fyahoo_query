@@ -75,7 +75,3 @@ class FYahooQuery():
         team_key = self.league_key + ".t." + str(team_id)
         url_path = "/team/" + team_key + "/stats;type=week;week=" + str(week)
         return self.fyahoo_query(url_path, "team")
-
-
-nhl = FYahooQuery("6851", "nhl")
-print(nhl.get_team_stats(5))
