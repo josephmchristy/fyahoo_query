@@ -1,5 +1,7 @@
 #! python
 
+import sys
+import os
 import re
 import json
 import xmltodict
@@ -20,7 +22,7 @@ class FYahooQuery():
         self.url = "https://fantasysports.yahooapis.com/fantasy/v2"
 
         # Set up auth
-        self.oauth = OAuth2(None, None, from_file='private.json')
+        self.oauth = OAuth2(None, None, from_file=os.path.join(sys.path[0], 'private.json'))
         if not self.oauth.token_is_valid():
             self.oauth.refresh_access_token()
 
