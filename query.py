@@ -62,6 +62,11 @@ class FYahooQuery():
         game_id = fyahoo_data["game"]["game_key"]
         return game_id
 
+    # Get all teams the league
+    def get_league_teams(self):
+        url_path = "/league/" + self.league_key + "/teams"
+        return self.fyahoo_query(url_path, "league")
+
     # Get all settings for the league
     def get_league_settings(self):
         url_path = "/league/" + self.league_key + "/settings"
